@@ -1,7 +1,7 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/csss.png";
-import java from "../../public/java.png";
+import PBI from "../../public/powerbi1.jpg";
+import excel from "../../public/excel.png";
+import java from "../../public/pyrthon.jpeg";
 import javascript from "../../public/javascript.png";
 import mysql from "../../public/mysql.png";
 
@@ -10,13 +10,13 @@ function Skills() {
   const cardItem = [
     {
       id: 1,
-      logo: html,
-      name: "HTML",
+      logo: PBI,
+      name: "Power BI",
     },
     {
       id: 2,
-      logo: css,
-      name: "CSS",
+      logo: excel,
+      name: "Excel",
     },
     {
       id: 4,
@@ -26,17 +26,12 @@ function Skills() {
     {
       id: 3,
       logo: java,
-      name: "Java",
+      name: "Python",
     },
     {
       id: 3,
       logo: mysql,
       name: "MySQL",
-    },
-    {
-      id: 5,
-      logo: react,
-      name: "React",
     },
   ];
   return (

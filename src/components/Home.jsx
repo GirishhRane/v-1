@@ -1,7 +1,6 @@
 import React from "react";
 
-import pic from "../../public/AZCsLm-removebg-preview.jpg";
-
+import pic1 from "../../public/Profilepic.jpeg";
 import { ReactTyped } from "react-typed";
 
 function Home() {
@@ -20,7 +19,7 @@ function Home() {
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-blue-700 font-bold"
-                strings={["Girish Rane", "a Frontend Developer"]}
+                strings={["Girish Rane", "a Data Analyst"]}
                 typeSpeed={50}
                 backSpeed={50}
                 loop={true}
@@ -37,8 +36,8 @@ function Home() {
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
-              src={pic}
-              className="rounded-full md:w-[430px] md:h-[450px] cursor-pointer hover:scale-110 duration-300"
+              src={pic1}
+              className="rounded-full md:w-[420px] md:h-[420px] cursor-pointer hover:scale-110 duration-300"
               alt="Photo"
             />
           </div>

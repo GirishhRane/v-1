@@ -41,7 +41,7 @@ function Navbar() {
             />
             <h1 className="font-semibold text-xl cursor-pointer">
               Girish Rane
-              <p className="text-sm">Frontend Developer</p>
+              <p className="text-sm">Data Analyst | Power BI Developer</p>
             </h1>
           </div>
 

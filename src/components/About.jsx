@@ -10,9 +10,9 @@ function About() {
         <div>
           <h1 className="text-3xl font-bold mb-5">About</h1>
           <p className="text-lg">
-            Hello, I'm Girish Rane, a passionate Frontend developer. I strive to
-            create impactful and visually stunning solutions that leave a
-            lasting impression.
+            Hello, I’m Girish Rane, a passionate Data Analyst dedicated to
+            crafting impactful and visually compelling solutions that drive
+            meaningful business outcomes.
           </p>
           <br />
           <h1 className="text-green-600 font-semibold text-2xl">Education</h1>
@@ -35,13 +35,13 @@ function About() {
             Mission Statement
           </h1>
           <p className="text-lg">
-            As a dedicated Frontend developer, my mission is to create dynamic,
-            responsive, and user-friendly web applications. I am committed to
-            leveraging the power of React to build scalable, maintainable, and
-            high-performance applications. By continuously learning the latest
-            technologies and best practices, I aim to contribute to innovative
-            solutions that meet the evolving needs of users and businesses
-            alike. My focus is on writing clean, efficient, and modular code.
+            As a dedicated data analyst, my mission is to transform complex data
+            into actionable insights that drive strategic decision-making and
+            foster business growth. By leveraging advanced analytical
+            techniques, data visualization, and a deep understanding of industry
+            trends, I strive to deliver clear, data-driven solutions that
+            empower organizations to achieve their goals and optimize
+            performance.
           </p>
         </div>
       </div>
