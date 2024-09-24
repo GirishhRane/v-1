@@ -7,19 +7,33 @@ import converter from "../../public/converter.jpeg";
 import components from "../../public/components.jpeg";
 import Google from "../../public/google.png";
 import paris from "../../public/paris.png";
+import waterapp from "../../public/image.png";
+
 function Projects() {
   const cardItem = [
     {
       id: 1,
-      logo: paris,
-      name: "Paris Olympics 2024 Dashboard",
-      data: "Developed a Paris Olympics 2024 Dashboard using Power BI to analyze and visualize medal distributions and athlete performance.Designed dynamic visualizations such as medal counts by country, gender, and type (gold, silver, bronze),providing clear insights into national and individual achievements. Integrated historical data and age category breakdowns to offer deeper context and trend analysis, enabling comprehensive understanding of the event.",
+      logo: todoApp,
+      name: "Todo Application",
+      data: "Developed a dynamic to-do list application using React, allowing users to easily add and delete tasks in real time. This project showcases my ability to build interactive and responsive user interfaces using React's state management.",
     },
     {
       id: 2,
-      logo: Google,
-      name: "Google Trends Dashboard",
-      data: "Developed a Google Trend Dashboard in Power BI to analyse and visualize search trends over time. Designed interactive visualizations to display search volumes for various topics, providing insights into their popularity and trends. Included a map visualization that allows users to click on different regions to view search data specific to those areas, enabling detailed regional analysis. Enhanced user engagement with dynamic filters and interactive elements, facilitating a comprehensive exploration of search interest across various locations.",
+      logo: calculator,
+      name: "Calculator",
+      data: "Build a calculator application using React, demonstrating my ability to create interactive and user-friendly web applications. The calculator supports basic arithmetic operations with a clean and responsive interface. This project highlights my expertise in React's component structure and state management to deliver a seamless and efficient user experience.",
+    },
+    {
+      id: 3,
+      logo: waterapp,
+      name: "Water Pump Wireless Monitoring and Control System",
+      data: "Designed and implemented a Water Pump Wireless Monitoring and Control System, utilizing sensors such as ultrasonic, soil moisture, and DHT11 to automate the water pump's operation based on environmental conditions. The system includes a custom-built app, allowing users to remotely start and stop the pump with ease. This project highlights my expertise in IoT, sensor integration, and mobile app development, providing an efficient and user-friendly solution for water management.",
+    },
+    {
+      id: 4,
+      logo: netflix,
+      name: "Netflix Clone",
+      data: "Developed a Netflix clone, focusing on replicating key frontend features using React. The project includes dynamic user interfaces, allowing users to browse through a collection of movies and TV shows. By integrating API calls to fetch real-time data, I was able to create a responsive and interactive platform. This project demonstrates my skills in React and building scalable web applications with a strong focus on user experience.",
     },
   ];
   return (
@@ -28,7 +42,7 @@ function Projects() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Projects</h1>
+        <h1 className="text-3xl font-bold mb-5">Mini Projects + Projects</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 my-5">
           {cardItem.map(({ id, logo, name, data }) => (
